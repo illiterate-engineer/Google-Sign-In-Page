@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family:"Raleway", sans-serif;;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F0F4F9;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-child-1{
+    background-color: white;
+    border-radius: 2rem;
+    min-width: 84rem;
+    min-height: 32rem;
+    padding: 3rem 3rem 3rem 3rem;
+}
+.main-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.submain-flex-container{
+    display: flex;
+    margin-top: 2rem;
+}
+.flex-box1-left{
+    flex-basis: 50%;
+    margin-right: 2.4rem;
+}
+
+.sign-in-text{
+    color: #1F1F1F;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0rem 0 1.5rem 0;
+    
+}
+
+.last-text{
+    color: rgb(31,31,31);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.flex-box2-right{
+    margin-left: 8rem;
+}
+
+.input-box-container input{
+    width: 100%;
+    border-radius: 0.4rem;
+    padding: 1.3rem 1.5rem;
+    border: 1px solid #444746;
+    outline-color: #0b57d0;
+}
+.forgot-email{
+   margin: .7rem 0 4rem 0;
+}
+.forgot-email a{
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+.forgot-email a:hover{
+    background-color:#ECF2FC ;
+}
+.create-account-text-container a, .forgot-email a, .last-text-box2-container a{
+text-decoration: none;
+color: #0b57d0;
+font-weight: 650;
+font-size: 1.1rem;
+letter-spacing: 0.02rem;
+
+}
+
+.last-text-box2-container{
+    width:80%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444746;
+    line-height: 1.6rem;
+}
+.last-text-box2-container a{
+    border-radius: 1rem;
+    padding: 0.1rem;
+}
+
+.last-text-box2-container a:hover{
+    background-color: #ECF2FC;
+}
+.button-text-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.create-account-text-container{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+/* .create-account-text-container:hover{
+    background-color: #ECF2FC;
+} */
+.btn-container{
+    padding: 1rem 0 1rem 1rem ;
+}
+.btn-blue{
+    color: white;
+    border-radius: 1.5rem;
+    padding:0.9rem 2rem;
+    font-size: 1.175rem;
+    font-weight: 600;
+    border: none;
+    background-color: #0b57d0;
+}
+.btn-blue:hover{
+    background-color: #0E4EB5;
+    cursor: pointer;
+}
+.flex-child-2{
+    display: flex;
+    justify-content: space-between;
+    min-width: 84rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.select-option-container{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.select-option-container:hover{
+    background-color: #E2E7EB;
+}
+
+.select-option-container select {
+    width: 100%;
+    border: none;
+    background-color: inherit;
+    color: #1f1f1f;
+    font-size: 1rem;
+    letter-spacing: 0.02rem;
+}
+
+.right-side-elements{
+display: flex;
+padding-right: 1rem;
+}
+
+.help{
+    padding: 1rem ;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    border-radius: 1rem;
+}
+
+.help:hover{
+    background-color: #E2E7EB;
+}
